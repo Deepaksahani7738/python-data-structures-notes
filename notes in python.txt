@@ -1,0 +1,282 @@
+---> notes<---
+
+        
+# basic data types of python
+
+name="rohan"
+d=name.upper()
+print(d)
+
+n=name.count("h")
+print(n)     
+
+m=name.lower()
+print(m)
+
+x=name.capitalize()
+print(x)
+
+c=name.count("rohan")
+print(c)
+
+# float and int
+
+data=35.52
+print(type(data))
+print(id(data))
+
+
+num=145
+print(type(num))
+print(id(num))
+
+# arithmetic operator
+a=35
+b=40
+val=a+b
+print(val)
+
+
+m=a/b
+print(m)
+
+n=a*b 
+print(n)
+
+bpn=a,b
+print(bpn)
+
+
+a=35
+b=40
+c=40
+d=80
+e=90
+val=a,b,c,d,e
+print(val)
+
+TA=18>20
+print(TA)
+
+
+
+
+
+for num in range(1,15):
+    print(num)
+    
+fruit="mango"
+for char in range(0,len(fruit)):
+    print(char,fruit[char])
+
+
+num=[22,33,55]
+for char in  num:
+    print(char)
+    
+    
+num="apple"
+for char in range(0,len(num)):
+    print(char,num[char]) 
+    
+    
+tata="pineapple"
+for val in range(0,len(tata)):
+    print(val,tata[val])
+    
+    
+myname="i will go in canada"
+for num in range(2,len(myname)):
+    print(num,myname[num])    
+
+
+
+date= "my friends is buying a computer"
+for num in range(0,len(date)):
+    print(num,date[num])
+
+
+
+for num in range(1,15):
+    print(num)
+
+
+fruits="apple"
+for char in range(0,len(fruits)):
+    print(char,fruits[char])
+print(fruits[0])
+x=fruits.upper()
+print(x)
+
+
+
+hobbies = ['cricket','swimming','cooking','travelling']
+for char in range(0,len(hobbies)):
+    print(char,hobbies[char])
+
+
+
+data=[22,44,55,66,77,88,99,85]
+for num in range(0,len(data)):
+    print(num,data[num])
+
+
+[11,22,33,44,55,66]
+
+square=[]
+for num in range(1,6):
+    square.append(num**3)
+    print(square)
+ # break satement
+
+for num in range(1,11):
+    if num==9:
+        break
+    print(num)
+    
+for char in range(1,256):
+    if char==11:
+        continue
+    print(char)
+
+for num in range(1,11):
+    if num==7:
+        continue
+    else:
+        print(num)
+
+
+
+# check_list of continue statement
+
+city=["pune","mumbai","canada","chennai","punjab"]
+for char in city:
+    if char=="canada":
+        continue
+    print(char)
+    
+    
+num=[100,200,300,400,500,600,700]
+for char in num:
+     if char==400:
+        break
+     print(char)
+
+
+
+for num in range(0,16):
+   if num==10:
+      break
+   else:
+      print(num)
+
+# nested loop
+
+
+for num in range(5):
+    for char in range(num+1):
+        print("char",end=' ')
+    print(num)
+   
+   
+   
+fruits=[["mango","apple","orange","pineapple","grapes"]]
+for char in fruits:
+    for val in fruits:
+        print(val)
+        
+        
+for i in range(0,10):
+    for j in range(0,10):
+        print(i*j,end='  ')
+    print("\n")
+    
+    
+for i in range(5,0,-1):
+    for j in range(i):
+        print(i*j,end=' ')
+    print("\n") 
+
+
+for num in range(5):
+    for char in range(num):
+        print(num*char,end=' ')
+    print("\n")
+
+
+name=["aman","ananad","abhay","sonal","poonam"]
+for num in name :
+    if num=="abhay":
+        continue
+    else:
+        
+        print(num)
+        
+        
+tuple=(22,30,44,55,56,99,89)
+for i in tuple:
+    if i==55:
+        break
+    else:
+        print(i)
+
+for num in range(5):
+    for val in range(num):
+        print(val*num,end=' ')
+    print("\n")
+         
+        #  dictionary in python
+         
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+# x=car.values()
+# print(x)
+
+print(car.items())
+
+car["mango"]="apple"
+print(car)
+
+
+
+
+for i in range(5):
+    for j in range (i):
+        print("*",end='my name is deepak')
+    print("\n")
+
+
+lst=["aarav","amir","alok","neha"]
+lst.append("priya")
+print(lst)
+
+
+lst=["aarav","amir","alok","neha"]
+
+data="good coder"
+for num in range(5):
+    print(data.upper())
+
+
+sum=0
+for i in range(10):
+    sum=sum+i
+    print(sum)
+
+
+
+
+data=[10,20,30,40,450]
+for i in data:
+    data.append(550)
+    print(data)
+    break
+
+fruits=["apple","mango","pineapple","orange","grapes"]
+print(fruits)
+fruits.extend([10,20,30,40])
+print(fruits)
