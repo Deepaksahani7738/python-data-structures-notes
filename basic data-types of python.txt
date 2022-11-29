@@ -1,0 +1,347 @@
+#basic data-types of python
+mydata = ('good coder')
+print(mydata)
+print(type(mydata))
+
+data = (144)
+print(data)
+print(type(data))
+
+tup = (10,20,30,40,50)
+print(tup)
+print(type(tup))
+
+list = ['steve','Raj','shivam',1,2,3]
+print(list)
+print(type(list))
+
+dict = {'Arvind','babalu','chandu','Deepak'}
+print(dict)
+print(type['dict'])
+
+a=25
+b=30
+result = a>b
+print(result)
+print(type(result))
+
+mb_data = (3.52)
+print(mb_data)
+print(type(mb_data))
+
+gb_data =(3+5j)
+print(gb_data)
+print(type(gb_data))
+
+
+cloud_list =['a',['b',['c',['d',['e',['f',['j',['h',['i',['j',['k',['l',['m',['n',['o',['i',['hello world']
+                                                                                        ]
+                                                                                   ]
+                                                                              ]
+                                                                         ]
+                                                                    ]
+                                                               ]
+                                                          ]
+                                                     ]
+                                                ]
+                                           ]
+                                      ]
+                                 ]
+                            ]
+                       ]
+                  ]
+             ]
+
+print(cloud_list)
+print(cloud_list[0])
+print(cloud_list[1])
+print(cloud_list[1][0])
+print(cloud_list[1][1])
+print(cloud_list[1][1][1])
+print(cloud_list[1][1][1][1])
+print(cloud_list[1][1][1][1][1])
+print(cloud_list[1][1][1][1][1][1])
+print(cloud_list[1][1][1][1][1][1][1])
+print(cloud_list[1][1][1][1][1][1][1][1][1][1][1][1])
+print(cloud_list[1][1][1][1][1][1][1][1][1][1][1][1][1][1][1][1][0])
+
+
+
+
+
+mydata =[[[[[[[[[['name''deepak','city''mumbai',['name''Arjun','city''hydrabad',['name''shubham','city''hariyana',[[['om namah shivaay']]]]]]]]]]]]]]]
+print(mydata)
+print(mydata[0][0][0][0][0][0][0][0])
+print(mydata[0][0][0][0][0][0][0][0][0][1][1])
+
+
+
+
+int =[1,2,3,4,5,6,7,[11,22,33,44,55,66,77,[111,222,333,444,555,666,777,[10000,20000,30000,40000,50000,60000,70000,[['hello world']]]]]]
+print(int)
+print(int[2])
+print(int[7][2])
+print(int[7][7][2])
+print(int[7][7][7][7])
+print(int[7][7][7][7][0])
+print(int[7][7][7][7][0][0])
+
+
+
+
+lines_built=['abc','cde','efg','ghk','klmn',[[1,2,3,4,['i am hacker']]]]
+print(lines_built[3])
+print(lines_built[5][0])
+print(lines_built[5][0][2])
+print(lines_built[5][0][4])
+print(lines_built[5][0][4][0])
+
+
+x = ['indian',['army',['i',['love',['you',[['world']]]]]]]
+print(x)
+print(x[0])
+print(x[1][0])
+print(x[1][1][0])
+print(x[1][1][1][0])
+print(x[1][1][1][1][0])
+print(x[1][1][1][1][1][0])
+print(x[1][1][1][1][1][0][0])
+
+
+y= [[11,22,[[[[['10000']]]]]]]
+print(y)
+print(y[0])
+print(y[0][2][0][0][0][0][0])
+
+
+
+god =[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[['god']]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+print(god[0])
+print(god[0][0])
+print(god[0][0][0])
+print(god[0][0][0][0])
+print(god[0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+print(god[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0])
+
+pick =[1,2,[22,33,[1000]]]
+print(pick[2][2][0])
+
+
+
+
+
+list=['steve','arvind','raj','deepak','rahul','arati','manju',['priya',['diksha','radhika','roshani']]]
+print(list)
+print(type(list))
+
+mixed_list=['aryan','true',144.50,'3+ij',145]
+print(mixed_list)
+print(type(mixed_list))
+
+data=['apple','mango','banana','grapes']
+y=data.append('pineapple')
+y=data.append(25000)
+print(data)
+
+mydata=['cricket','sunflower','football']
+x=mydata.insert(1,'badminton')
+print(mydata)
+
+x=mydata.clear()
+print(mydata)
+
+fruits=['apple','mango','banana','pineapple','apple']
+x=fruits.count('apple')
+print(x)
+
+fruits=['apple','mango','banana','pineapple','apple']
+fruits.pop()
+print(fruits)
+
+data=['apple','mango','banana','grapes']
+x=data.index('grapes')
+print(x)
+
+fruits=['apple','mango','banana','pineapple','apple']
+x=fruits.remove('apple')
+print(fruits)
+
+
+data=['apple','mango','banana','grapes']
+x=data.sort()
+print(data)
+
+data=['apple','mango','banana','grapes']
+x=data.reverse()
+print(data)
+
+#nested list of python
+
+list=['raj','arati','suresh','prithvi',
+      [22,33,44,55,66,
+       ['apple','babana','pineapple','grapes',
+        ['mumbai','goa','delhi','chennai']]]]
+print(list)
+print(list[3])
+print(list[4][1])
+print(list[4][5][2])
+print(list[4][5][4][0])
+
+
+
+#set of python
+
+row_1={1,2,3,4,5,6,20,30,40,50,60}
+print(row_1)
+print(type(row_1))
+
+
+data_set={'apple','banana','orange','grapes'}
+data_set.add('pune')
+print(type(data_set))
+
+data_set1={'apple','banana','orange','grapes'}
+data_set1.clear()
+print(data_set1)
+
+result=data_set.copy()
+print(result)
+
+data_set=result
+print(data_set)
+print(result)
+
+
+data_set2={'apple','banana','orange','grapes'}
+data.pop()
+print(data_set2)
+
+
+data_set2={'apple','banana','orange','grapes'}
+data_set2.remove('banana')
+print(data_set2)
+
+
+x={1,2,3,4,5}
+y={10,20,30,40,50,1}
+result=x.union(y)
+print(result)
+
+result=x.intersection(y)
+print(result)
+
+set_1={'mumbai','goa','canada','gujrat','usa'}
+set_2={'delhi','chennai','rajasthan','mumbai','canada'}
+result=set_1.difference(set_2)
+print(result)
+result=set_2.difference(set_1)
+print(result)
+
+
+set_1={'mumbai','goa','canada','gujrat','usa'}
+set_2={'delhi','chennai','rajasthan','mumbai','canada'}
+result=set_1.issubset(set_2)
+print(result)
+
+
+row_1={1,2,3,4}
+row_2={1,2,3,4}
+result=row_1.issubset(row_2)
+print(result)
+
+
+row_1={1,2,3,4}
+row_2={1,2,3,4,55,66.77}
+result=row_2.issuperset(row_1)
+print(result)
+
+
+#write a program to show all operations of Set
+emp={'Anuj',101,'Thane',45000,1,30.5}
+print(emp)
+
+emp.add('nashik')
+print(emp)
+
+emp.remove(30.5)
+print(emp)
+
+emp.pop()
+print(emp)
+
+emp.clear()
+print(emp)
+
+emp={'Anuj',101,'Thane',45000,1,30.5}
+set_1={'ajay','anuj','vijay','laxmi','pooja'}
+result=emp.issuperset(set_1)
+print(result)
+
+result=emp.intersection(set_1)
+print(result)
+
+emp={'Anuj',101,'Thane',45000,1,30.5}
+set_1={'ajay','anuj','vijay','laxmi','pooja'}
+result=emp.difference(set_1)
+print(result)
+
+
+#dictionary in python
+
+my_dict = {'name': 'John', 1: [2, 4, 3],'sal':38000,'location':'mumbai'}
+print(my_dict)
+print(type(my_dict))
+
+print(my_dict['location'])
+
+result=my_dict.pop('name')
+print(result)
+
+result=my_dict.popitem()
+print(result)
+
+my_dict.update({1011:'kerala'})
+print(my_dict)
+
+my_dict['hobbies']='cricket'
+print(my_dict)
+
+
+reult=my_dict.get('sal')
+print(result)
+
+city=['mumbai','punjab','sikkim','nagpur']
+values=[255]
+
+result=my_dict.fromkeys(city,values)
+print(result)
+
+
+nested_list = [[ ["hello","welcome",33] ], [[222,333,444]  ]]
+print(nested_list[0][0][1])
+print(nested_list[1][0][1])
+
+
+
+name=input("enter your name")
+age=int(input("enter your age"))
+if("age>=18 you got license) and (age<=18 you not eligible for license"):
+     print("you got license")
+else:
+     print("you are not eligible for license")     
