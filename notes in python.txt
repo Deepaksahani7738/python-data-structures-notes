@@ -7,17 +7,27 @@ name="rohan"
 d=name.upper()
 print(d)
 
+ROHAN
+
 n=name.count("h")
-print(n)     
+print(n)
+
+1
 
 m=name.lower()
 print(m)
 
+rohan
+
 x=name.capitalize()
 print(x)
 
+Rohan
+
 c=name.count("rohan")
 print(c)
+
+1
 
 # float and int
 
@@ -25,10 +35,18 @@ data=35.52
 print(type(data))
 print(id(data))
 
+<class 'float'>
+2007418775440
+
 
 num=145
 print(type(num))
 print(id(num))
+
+<class 'int'>
+140729639036200
+
+
 
 # arithmetic operator
 a=35
@@ -36,15 +54,23 @@ b=40
 val=a+b
 print(val)
 
+75
+
 
 m=a/b
 print(m)
 
+0.875
+
 n=a*b 
 print(n)
 
+1400
+
 bpn=a,b
 print(bpn)
+
+(35, 40)
 
 
 a=35
@@ -55,8 +81,12 @@ e=90
 val=a,b,c,d,e
 print(val)
 
+(35, 40, 40, 80, 90)
+
 TA=18>20
 print(TA)
+
+False
 
 
 
@@ -65,41 +95,147 @@ print(TA)
 for num in range(1,15):
     print(num)
     
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+    
 fruit="mango"
 for char in range(0,len(fruit)):
     print(char,fruit[char])
-
+    
+0 m
+1 a
+2 n
+3 g
+4 o
+ 
 
 num=[22,33,55]
 for char in  num:
     print(char)
     
     
+22
+33
+55
+    
+    
 num="apple"
 for char in range(0,len(num)):
     print(char,num[char]) 
+    
+0 a
+1 p
+2 p
+3 l
+4 e
     
     
 tata="pineapple"
 for val in range(0,len(tata)):
     print(val,tata[val])
     
+0 p
+1 i
+2 n
+3 e
+4 a
+5 p
+6 p
+7 l
+8 e
+    
     
 myname="i will go in canada"
 for num in range(2,len(myname)):
-    print(num,myname[num])    
+    print(num,myname[num])
+    
+2 w
+3 i
+4 l
+5 l
+6
+7 g
+8 o
+9
+10 i
+11 n
+12
+13 c
+14 a
+15 n
+16 a
+17 d
+18 a
 
 
 
 date= "my friends is buying a computer"
 for num in range(0,len(date)):
     print(num,date[num])
+    
+0 m
+1 y
+2
+3 f
+4 r
+5 i
+6 e
+7 n
+8 d
+9 s
+10
+11 i
+12 s
+13
+14 b
+15 u
+16 y
+17 i
+18 n
+19 g
+20
+21 a
+22
+23 c
+24 o
+25 m
+26 p
+27 u
+28 t
+29 e
+30 r
 
 
 
 for num in range(1,15):
     print(num)
-
+    
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
 
 fruits="apple"
 for char in range(0,len(fruits)):
@@ -108,25 +244,55 @@ print(fruits[0])
 x=fruits.upper()
 print(x)
 
+0 a
+1 p
+2 p
+3 l
+4 e
+a
+APPLE
+
 
 
 hobbies = ['cricket','swimming','cooking','travelling']
 for char in range(0,len(hobbies)):
     print(char,hobbies[char])
+    
+0 cricket
+1 swimming
+2 cooking
+3 travelling
 
 
 
 data=[22,44,55,66,77,88,99,85]
 for num in range(0,len(data)):
     print(num,data[num])
+    
+0 22
+1 44
+2 55
+3 66
+4 77
+5 88
+6 99
+7 85
 
 
-[11,22,33,44,55,66]
+
 
 square=[]
 for num in range(1,6):
     square.append(num**3)
     print(square)
+    
+[1]
+[1, 8]
+[1, 8, 27]
+[1, 8, 27, 64]
+[1, 8, 27, 64, 125]
+
+
  # break satement
 
 for num in range(1,11):
@@ -134,16 +300,59 @@ for num in range(1,11):
         break
     print(num)
     
-for char in range(1,256):
+1
+2
+3
+4
+5
+6
+7
+8
+    
+for char in range(1,25):
     if char==11:
         continue
     print(char)
+    
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
 
 for num in range(1,11):
     if num==7:
         continue
     else:
         print(num)
+        
+1
+2
+3
+4
+5
+6
+8
+9
+10
 
 
 
@@ -155,12 +364,21 @@ for char in city:
         continue
     print(char)
     
+pune
+mumbai
+chennai
+punjab
+    
     
 num=[100,200,300,400,500,600,700]
 for char in num:
      if char==400:
         break
      print(char)
+     
+100
+200
+300
 
 
 
@@ -169,6 +387,17 @@ for num in range(0,16):
       break
    else:
       print(num)
+      
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
 
 # nested loop
 
@@ -177,6 +406,12 @@ for num in range(5):
     for char in range(num+1):
         print("char",end=' ')
     print(num)
+    
+char 0
+char char 1
+char char char 2
+char char char char 3
+char char char char char 4
    
    
    
@@ -185,23 +420,63 @@ for char in fruits:
     for val in fruits:
         print(val)
         
+ ['mango', 'apple', 'orange', 'pineapple', 'grapes']
+        
         
 for i in range(0,10):
-    for j in range(0,10):
-        print(i*j,end='  ')
+    for j in range(i+1):
+        print('*',end='  ')
     print("\n")
+    
+*  
+
+*  *
+
+*  *  *
+
+*  *  *  *
+
+*  *  *  *  *
+
+*  *  *  *  *  *
+
+*  *  *  *  *  *  *
+
+*  *  *  *  *  *  *  *
+
+*  *  *  *  *  *  *  *  *
+
+*  *  *  *  *  *  *  *  *  *
     
     
 for i in range(5,0,-1):
     for j in range(i):
         print(i*j,end=' ')
     print("\n") 
+    
+0 5 10 15 20 
+
+0 4 8 12
+
+0 3 6
+
+0 2
+
+0
 
 
 for num in range(5):
     for char in range(num):
         print(num*char,end=' ')
     print("\n")
+    
+0
+
+0 2
+
+0 3 6
+
+0 4 8 12
 
 
 name=["aman","ananad","abhay","sonal","poonam"]
@@ -212,6 +487,11 @@ for num in name :
         
         print(num)
         
+aman
+ananad
+sonal
+poonam
+        
         
 tuple=(22,30,44,55,56,99,89)
 for i in tuple:
@@ -219,13 +499,25 @@ for i in tuple:
         break
     else:
         print(i)
+        
+22
+30
+44
 
 for num in range(5):
     for val in range(num):
         print(val*num,end=' ')
     print("\n")
+    
+0
+
+0 2
+
+0 3 6
+
+0 4 8 12
          
-        #  dictionary in python
+ #  dictionary in python
          
 car = {
   "brand": "Ford",
@@ -233,14 +525,19 @@ car = {
   "year": 1964
 }
 
-# x=car.values()
-# print(x)
+x=car.values()
+print(x)
+
+dict_values(['Ford', 'Mustang', 1964])
 
 print(car.items())
+
+dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
 
 car["mango"]="apple"
 print(car)
 
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'mango': 'apple'}
 
 
 
@@ -248,24 +545,49 @@ for i in range(5):
     for j in range (i):
         print("*",end='my name is deepak')
     print("\n")
+    
+*my name is deepak
+
+*my name is deepak*my name is deepak
+
+*my name is deepak*my name is deepak*my name is deepak
+
+*my name is deepak*my name is deepak*my name is deepak*my name is deepak
 
 
 lst=["aarav","amir","alok","neha"]
 lst.append("priya")
 print(lst)
 
+['aarav', 'amir', 'alok', 'neha', 'priya']
 
-lst=["aarav","amir","alok","neha"]
+
 
 data="good coder"
 for num in range(5):
     print(data.upper())
-
+    
+GOOD CODER
+GOOD CODER
+GOOD CODER
+GOOD CODER
+GOOD CODER
 
 sum=0
 for i in range(10):
     sum=sum+i
     print(sum)
+    
+0
+1
+3
+6
+10
+15
+21
+28
+36
+45
 
 
 
@@ -275,8 +597,12 @@ for i in data:
     data.append(550)
     print(data)
     break
+    
+ [10, 20, 30, 40, 450, 550]
 
 fruits=["apple","mango","pineapple","orange","grapes"]
 print(fruits)
+
+['apple', 'mango', 'pineapple', 'orange', 'grapes']
 fruits.extend([10,20,30,40])
 print(fruits)
