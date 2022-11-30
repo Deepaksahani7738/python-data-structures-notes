@@ -1,6 +1,14 @@
 data structures of python
-list,tuple,set and dict
 
+LIST
+TUPLE
+SET
+DICTIONARY
+
+1--list are a collection of iterable, mutable and ordered data. They can contain duplicate data.
+2--tuples are immutable,These tuples are an ordered collection of elements of different data types
+3--Set is another data structure that holds a collection of unordered, iterable and mutable data. But it only contains unique elements.
+4--dictionaries strictly contain key-value pairs
 
 data=(10,20,30,40)
 data
