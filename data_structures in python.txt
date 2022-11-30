@@ -1,0 +1,145 @@
+data structures of python
+list,tuple,set and dict
+
+
+data=(10,20,30,40)
+data
+(10, 20, 30, 40)
+type(data)
+
+<class 'tuple'>
+id(data)
+2545711989600
+
+data=list(data)
+data
+[10, 20, 30, 40]
+
+data[0:3]
+[10, 20, 30]
+
+data
+[10, 20, 30, 40]
+
+data.append(75)
+data
+[10, 20, 30, 40, 75]
+
+data.remove(30)
+data
+[10, 20, 40, 75]
+
+data.pop(0)
+10
+data
+[20, 40, 75]
+
+data.insert(1,45)
+data
+[20, 45, 40, 75]
+
+
+data=set(data)
+data
+{40, 75, 20, 45}
+
+data.add(25)
+data
+{40, 75, 45, 20, 25}
+
+data={40,75,45,20,25}
+data
+{20, 40, 25, 75, 45}
+
+data.pop()
+20
+
+data.copy()
+{40, 25, 75, 45}
+data
+{40, 25, 75, 45}
+
+data.clear()
+data
+set()
+
+a={22,32,34,55,66}
+b={22,55,75,88,99,75}
+result=a.intersection(b)
+result
+{22, 55}
+
+result=a.difference(b)
+result
+{32, 34, 66}
+
+result=a.union(b)
+result
+{32, 34, 66, 99, 75, 22, 55, 88}
+
+
+
+dict={100:{"raj":5},101:{"ritika":7},103:{"rishabh":10},104:{"suresh":12},105:{"priya":14},106:{"pooja":15}}
+dict
+{100: {'raj': 5}, 101: {'ritika': 7}, 103: {'rishabh': 10}, 104: {'suresh': 12}, 105: {'priya': 14}, 106: {'pooja': 15}}
+
+dict["tanya"]=16
+dict
+{100: {'raj': 5}, 101: {'ritika': 7}, 103: {'rishabh': 10}, 104: {'suresh': 12}, 105: {'priya': 14}, 106: {'pooja': 15}, 'tanya': 16}
+
+result=dict.keys()
+result
+dict_keys([100, 101, 103, 104, 105, 106, 'tanya'])
+
+result=dict.values()
+result
+dict_values([{'raj': 5}, {'ritika': 7}, {'rishabh': 10}, {'suresh': 12}, {'priya': 14}, {'pooja': 15}, 16])
+
+result=dict.items()
+result
+dict_items([(100, {'raj': 5}), (101, {'ritika': 7}), (103, {'rishabh': 10}), (104, {'suresh': 12}), (105, {'priya': 14}), (106, {'pooja': 15}), ('tanya', 16)])
+
+result=dict.get(100)
+result
+{'raj': 5}
+
+result=dict.popitem()
+result
+('tanya', 16)
+
+dict
+{100: {'raj': 5}, 101: {'ritika': 7}, 103: {'rishabh': 10}, 104: {'suresh': 12}, 105: {'priya': 14}, 106: {'pooja': 15}}
+
+
+
+data={"avantika","mandika","steve","ragini"}
+a=18
+result=dict.fromkeys(data,a)
+result
+{'steve': 18, 'ragini': 18, 'mandika': 18, 'avantika': 18}
+
+
+big_data={10:{1:15},20:{2:16},
+          30:{3:17},40:{4:20},
+          50:{5:25},60:{6:40},
+          70:{7:45},80:{8:88},
+          90:{9:55},100:{10:29},
+          101:{11:66},102:{12:68}}
+big_data
+{10: {1: 15}, 20: {2: 16}, 30: {3: 17}, 40: {4: 20}, 50: {5: 25}, 60: {6: 40}, 70: {7: 45}, 80: {8: 88}, 90: {9: 55}, 100: {10: 29}, 101: {11: 66}, 102: {12: 68}}
+
+big_data.keys()
+dict_keys([10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 101, 102])
+
+big_data.values()
+dict_values([{1: 15}, {2: 16}, {3: 17}, {4: 20}, {5: 25}, {6: 40}, {7: 45}, {8: 88}, {9: 55}, {10: 29}, {11: 66}, {12: 68}])
+
+big_data.get(10)
+{1: 15}
+
+big_data.pop(10)
+{1: 15}
+
+big_data
+{20: {2: 16}, 30: {3: 17}, 40: {4: 20}, 50: {5: 25}, 60: {6: 40}, 70: {7: 45}, 80: {8: 88}, 90: {9: 55}, 100: {10: 29}, 101: {11: 66}, 102: {12: 68}}
+
