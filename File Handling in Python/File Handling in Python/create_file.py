@@ -83,7 +83,7 @@ with open(r"attrib.txt","r") as f:
     print(f.read())
     
 
-# file handling of python !
+# file handling in python !
 # write binary and read binary mode in python
 
 data_file=[10,20,30,40,50,60,70,80,90,100]
@@ -105,7 +105,7 @@ res=os.listdir(r"C:\Users\ARVIND\OneDrive\Desktop\File Handling in Python")
 for item in res:
     print(item)
 
-# Handling the Current Working Directory
+# File Handling the Current Working Directory
 
 import os
 result=os.listdir(r"C:\Users\ARVIND\Downloads")
@@ -123,7 +123,6 @@ import os
 cwd=os.getcwd()
 print(f" Current Working Directory: {cwd} ")
 
-#
 
 #  opens the file in binary format for reading  in python
 
